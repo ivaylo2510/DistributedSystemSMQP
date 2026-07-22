@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- !!! BY CHANGING THIS FILE AND SUBMITTING THE CHANGES TO THE GIT REMOTE, YOU WILL BE FLAGGED "WITH CHANGE OF PROTECTED FILE" IN THE CLASSROOM !!! -->
+
+<!-- DO NOT CHANGE OR RENAME THIS FILE SINCE THIS CAN RESULT IN FAILURE OF THE TESTS -->
+
+<Configuration status="DEBUG">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="TRACE">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+</Configuration>
